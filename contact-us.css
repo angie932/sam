@@ -1,177 +1,92 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(205, 236, 236);
+}
 
-.contact{
-  font-size: 50px;
-  font-family: 'Lobster', cursive;
+header{
+  height: 100px;
+}
+
+.contenido_section{
+  border: 0px solid red;
+}
+
+.caja_title{
+  border: 0px solid dodgerblue;
   text-align: center;
 }
 
-.contenido-contact{
-  border: 0px solid red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-form{
-  border: 0px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input{
-  height: 40px;
-  width: 60%;   
-  border-radius: 10px;
-  border: none;
-  border: 1px solid rgb(168, 168, 168);
-  outline: none;
-}
-
-input:checked{
-  border: 0px solid rgb(226, 55, 43);
-}
-
-.button1{
-  height: 40px;
-  width: 20%;
-  border-radius: 10px;
-  border: none;
-  margin-bottom: 40px;
-}
-
-::placeholder{
-  font-size: 13px;
+.title2{
+  font-size: 30px;
+  text-align: center;
   font-family: verdana;
-}
-
-.p1{
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
 }
 
-.contenido-form{
-  border: 0px solid maroon;
-  width: 50%;
-  background-color: rgba(126, 126, 126, 0.322);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
+.p{
+  font-size: 20px;
+  font-family: verdana;
+  color: #fff;
 }
 
-.p1{
-  margin-right: 50%;
-}
-*/
-
-section{
+.caja_cards{
+  border: 0px solid rgb(239, 255, 13);
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-.contenido-section{
-  border: 0px solid red;
+.cards{
+  border: 0px solid sandybrown;
   display: flex;
-  align-items: center;
   justify-content: center;
-  width: 95%;
-}
-
-.caja1{
-  border: 0px solid black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 20px;
-  position: relative;
-  left: 100px;
-  z-index: 100;
-}
-
-.cajaigual{
-  border: 0px solid blue;
-  display: flex;
-  background-color: #2a2a2a;
-  flex-direction: column;
-  align-items: center;
-  line-height: 2px;
-  color: #fff;
-}
-
-.padd1{
-  padding: 0px 20px;
-}
-
-.info{
-  font-size: 18px;
-  font-weight: 400;
-  font-family: verdana;
-}
-
-.info2{
-  font-size: 16px;
-  font-family: cursive,verdana;
-  color: rgb(182, 182, 182);
-}
-
-.caja2{
-  border: 0px solid rgb(22, 220, 187);
-  background-color: #595959;
-  height: 600px;
   width: 60%;
+  justify-content: space-between;
 }
 
-.contenido-caja2{
-  border: 0px solid darkblue;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-form{
-  border: 0px solid firebrick;
+.card1{
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  width: 90%;
-}
-
-.input{
-  padding: 15px 20px;
-  margin-top: 40px;
-  border: 1px solid rgb(111, 111, 111);
-  border: none;
-  outline: none;
-}
-
-.btn-message{
-  background-color: #2a2a2a;
-  width: 25%;
-  height: 50px;
-  border: none;
-  border: 2px solid #fff;
-  color: #fff;
-  font-size: 16px;
-  font-family: verdana;
-  font-weight: 500;
-  margin-top: 40px;
-}
-
-.centrar-btn{
-  display: flex;
+  align-items: center;
   justify-content: center;
+  width: 27%;
+  background-color: #fff;
 }
 
-.input:focus{
-  border: 1px solid rgb(30, 30, 30);
+.icono{
+  border: 0px solid red;
+  padding: 30px;
+  border-radius: 50px;
+  margin-top: -40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.219);
 }
 
-.contact{
-  font-family: verdana;
-  font-size: 35px;
+.caja_p{
+  border: 0px solid red;
   text-align: center;
-  font-weight: 600;
-  margin-bottom: -20px;
+  width: 100%;
+}
+
+.title-caja{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: verdana;
+}
+
+.p-caja, .p-caja2{
+  font-size: 16px;
+  color: rgb(180, 180, 180);
+  font-family: cursive, verdana;
+}
+
+.p-caja2{
+  color: rgb(118, 51, 180);
+}
+
+.foo-caja{
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: rgb(236, 236, 236);
 }
